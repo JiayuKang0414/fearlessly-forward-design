@@ -19,3 +19,5 @@ The two Pathway helpers stay separate and scoped to `#do-good-month-pathway` and
 Retain the approved `umd-learning-*` house namespace for fidelity; native DS classes are not overrides. Record deviations in this project's `OVERRIDES.md`.
 
 This is the user's publicly shared review site: retain noindex and add no sign-in gate. Publish only to the independent repository, never back under the former project's site. Do not change the production Fearlessly Forward domain.
+
+Do not add Scroll to Top controls on either page; the user requested their removal.

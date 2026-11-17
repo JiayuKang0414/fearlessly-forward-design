@@ -25,5 +25,4 @@
     umd-element-navigation-header div[slot="utility-navigation"] a:focus-visible {
       outline: 2px solid #e21833; outline-offset: 4px;
     }
-    umd-element-scroll-top { right: 24px; bottom: 24px; }
     @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
