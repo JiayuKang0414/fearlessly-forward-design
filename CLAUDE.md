@@ -21,3 +21,5 @@ Retain the approved `umd-learning-*` house namespace for fidelity; native DS cla
 This is the user's publicly shared review site: retain noindex and add no sign-in gate. Publish only to the independent repository, never back under the former project's site. Do not change the production Fearlessly Forward domain.
 
 Do not add Scroll to Top controls on either page; the user requested their removal.
+
+The Do Good hero uses the user-provided `images/do-good-now/hero-thurgood-marshall-hall.jpg`, with focal position 75% 82% to prioritize the sculpture. Keep the original source image and native small centered Hero; other sculpture photos elsewhere on the page remain their approved assets.

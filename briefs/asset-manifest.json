@@ -119,5 +119,10 @@
     "path": "images/shared/fearlessly-forward-logo.png",
     "sha256": "53ad43f1cb566ee9698905f5ef7f6ab88320bf1d58500ef98b5000f6c913c005",
     "source": "User-provided fearless forward (1).png"
+  },
+  {
+    "path": "images/do-good-now/hero-thurgood-marshall-hall.jpg",
+    "sha256": "3d7f487ec2a9ec34c95aad1d8577767282c95351f84b8618353d7212a5f0f4a1",
+    "source": "User-provided ThurgoodMarshallHall_DoGood_05222023_JC_9303.JPG"
   }
 ]
