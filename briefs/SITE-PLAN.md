@@ -6,7 +6,7 @@
 - Permanent local folder: `/Users/jiayukang/Documents/New project/Fearlessly Forward`.
 - Sources: https://fearlesslyforward.umd.edu/we-reimagine-learning and https://fearlesslyforward.umd.edu/do-good-now.
 - Tone: image-forward; preserve approved Design System 2.1.0 layouts.
-- Chrome: UMD utility bar, logo, four flat nav items, Support Maryland and visual footer.
+- Chrome: UMD utility bar, logo, three flat nav items, Support Maryland and visual footer.
 
 ```text
 index.html → pages/do-good-now/
@@ -15,7 +15,7 @@ pages/
 └── we-reimagine-learning/index.html
 ```
 
-Home and The Future of AI retain their original live URLs. The migrated entries link within this project and select their own page in both menus. No new homepage or AI prototype is designed.
+Home has been removed from desktop and mobile navigation. The site logo links to the original homepage, and The Future of AI retains its original live URL. The migrated entries link within this project and select their own page in both menus. No new homepage or AI prototype is designed.
 
 The scaffold contains a separate pinned page-builder submodule and project-owned `shared/`. Only referenced images are migrated, with identical common images deduplicated. Do Good retains seven sections; Learning retains eight. Preservation manifests record original text, component structure and image bytes.
 

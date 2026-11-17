@@ -7,7 +7,7 @@ Independent UMD design project with its own Git repository, shared chrome, image
 | Building a Do Good Campus | `pages/do-good-now/` | A Do Good Campus |
 | We Reimagine Learning | `pages/we-reimagine-learning/` | Innovations in Teaching and Learning |
 
-The root redirects to Do Good for review. Home and The Future of AI retain their original live-site URLs. The two migrated pages link directly to each other, using project-relative URLs and independent desktop/mobile selection.
+The root redirects to Do Good for review. Both navigation menus contain three entries: Innovations in Teaching and Learning, A Do Good Campus and The Future of AI. Home is removed; The Future of AI retains its original live-site URL. The two migrated pages link directly to each other, using project-relative URLs and independent desktop/mobile selection.
 
 ## Build and preview
 

@@ -97,7 +97,7 @@ for slug, expected in MANIFEST['pages'].items():
     selected_label = 'A Do Good Campus' if slug == 'do-good-now' else 'Innovations in Teaching and Learning'
     for group in ('desktop', 'mobile'):
         links = [link for link in page.links if link['group'] == group]
-        assert len(links) == 4
+        assert len(links) == 3
         selected = [link for link in links if 'data-selected' in link['attrs']]
         assert len(selected) == 1 and selected[0]['text'] == selected_label
         assert selected[0]['attrs'].get('aria-current') == 'page'
