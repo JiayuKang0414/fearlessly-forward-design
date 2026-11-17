@@ -8,11 +8,9 @@ Native components and canonical critical CSS remain unchanged. Canonical layout,
 
 These scoped styles remove the standard Pathway's viewport-based `56vh` floor so the rows follow their approved photo and copy without extra blank space. The scripts retain the lifecycle comment, “Reapply after native lazy initialization or a component rerender.” They do not change native typography, padding, section margins or any other Pathway.
 
-## Do Good hero composition
+## Do Good hero settings restored
 
-The user requested the snow photograph with the DO GOOD sign exposed. `umd-element-hero#do-good-hero` retains the native small standard variant and uses native left alignment. The original user photo is copied unchanged, with image focal position 70% 70%.
-
-`scripts/do-good-hero.js` installs one scoped shadow style at the native component-ready event and custom-element readiness. At container widths of 768px and above, `.umd-hero-default__text` is limited to `min(480px,40vw)`, and `.umd-hero-default__asset::before` uses a left-to-right black gradient (.75 at the left, .70 at 44%, .15 at 56%, .02 at the right). This separates the copy from the sign and keeps the sign side bright. It does not alter native typography, section spacing or the mobile image-above-text composition. A marked-style guard prevents duplicates and supports rerendering. No other hero is targeted. Browser visual verification remains incomplete.
+At the user’s request, the Do Good hero is restored to the native small standard centered layout, default text width and native gradient. The snow photograph and focal position 70% 70% are retained. The page-specific hero composition script and its shadow injection are removed.
 
 ## Video and shared styles
 

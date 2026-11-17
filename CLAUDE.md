@@ -22,4 +22,4 @@ This is the user's publicly shared review site: retain noindex and add no sign-i
 
 Do not add Scroll to Top controls on either page; the user requested their removal.
 
-The Do Good hero uses the user-provided `images/do-good-now/hero-campus-snow.jpg`, with focal position 70% 70%. The user requested that the DO GOOD sign be visible: this page now uses native small standard Hero with left-aligned copy. `scripts/do-good-hero.js` limits tablet/desktop copy to min(480px,40vw) and shades the left side, leaving the photographed sign on the right clear of text and a heavy overlay. Its scoped readiness hooks preserve native mobile image-above-text layout. Keep all hero copy and the original photo bytes. Other sculpture photos and the Learning hero retain their approved settings.
+The Do Good hero uses the user-provided `images/do-good-now/hero-campus-snow.jpg`, with focal position 70% 70%. The user restored the previous native small standard centered Hero, including its default text width and native gradient overlay. Do not restore the page-specific left-column or horizontal-gradient override. Keep the snow photo, all hero copy and the other approved page settings.
