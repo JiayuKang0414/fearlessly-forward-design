@@ -4,13 +4,13 @@
   "pages": {
     "do-good-now": {
       "path": "pages/do-good-now/index.html",
-      "content_sha256": "46972c1bbdc46af2ba45508f6ddb6892c6d683d06ce524d564e177cdef2ab4f5",
+      "content_sha256": "2647c881f9fd22c9d65a54dae76a6a8d357699b18bf3a8a493f6e67624d77ec1",
       "components": {
         "umd-element-hero": 1,
         "umd-element-pathway": 1,
         "umd-element-call-to-action": 3,
         "umd-element-section-intro-wide": 2,
-        "umd-element-card": 8,
+        "umd-feed-news": 1,
         "umd-element-quote": 1,
         "umd-element-sticky-columns": 1,
         "umd-element-event": 5,

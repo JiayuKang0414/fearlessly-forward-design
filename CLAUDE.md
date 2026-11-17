@@ -23,3 +23,5 @@ This is the user's publicly shared review site: retain noindex and add no sign-i
 Do not add Scroll to Top controls on either page; the user requested their removal.
 
 The Do Good hero uses the user-provided `images/do-good-now/hero-campus-snow.jpg`, with focal position 70% 70%. The user restored the previous native small standard centered Hero, including its default text width and native gradient overlay. Do not restore the page-specific left-column or horizontal-gradient override. Keep the snow photo, all hero copy and the other approved page settings.
+
+Do Good, Now uses the native dynamic `umd-feed-news`, category `10461`, four columns and two initial rows (eight articles), matching the original page. Fetch article content from Maryland Today rather than restoring the former static eight-card snapshot. Its original public read-only client token is embedded in the page; never log the full feed tag or HTML/diffs containing it. Keep the 1600px lock, wide section intro and native landing/child spacing. Static content preservation records exclude the fetched article copy.

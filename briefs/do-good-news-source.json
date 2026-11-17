@@ -1,0 +1,12 @@
+{
+  "source_url": "https://fearlesslyforward.umd.edu/do-good-now",
+  "checked_date": "2026-11-17",
+  "source_component": "umd-feed-news",
+  "runtime_component": "umd-feed-news",
+  "category": "10461",
+  "columns": 4,
+  "rows": 2,
+  "initial_articles": 8,
+  "endpoint": "https://today.umd.edu/graphql",
+  "api_verified_articles": 8
+}

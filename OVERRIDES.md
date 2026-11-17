@@ -20,6 +20,10 @@ The shared header uses the user-provided FF-black.svg, stored as `images/shared/
 
 The genuine shared page-built classes are `.umd-learning-footer-note` (the presentation credit on both pages), `.umd-learning-source-note` (the small April 2026 editorial note on Do Good) and `.umd-learning-source-note-dark` (that note's dark-band color). These supplementary notes do not replace a native component; their approved small-text, color, spacing and keyboard-focus treatment is retained from the presentation. Learning defines the two source-note helpers through shared CSS but does not render a source-note element. The existing `umd-learning-*` names are preserved for migration fidelity.
 
+## Do Good, Now news feed
+
+The former static eight-card snapshot is replaced with the native dynamic `umd-feed-news`. Original source category 10461, four columns and two rows provide eight current articles from Maryland Today. The existing wide intro, 1600px lock and native spacing remain. The original public client configuration is used without a page-built fetcher, shadow style or proxy. Its token is excluded from this document. `briefs/do-good-news-source.json` records the source and validated configuration; the preservation manifest records static copy and the feed component, not fetched article text.
+
 ## Current-page navigation
 
 `scripts/site_chrome.py` extends the canonical Chrome class only to stamp `data-selected` and `aria-current="page"` by project-relative destination in desktop and mobile menus. `scripts/build-chrome.py` runs the canonical inliner with that class, so generation and freshness checks converge. There is no runtime DOM patch or custom active-state CSS. Neither page reads the other page to obtain chrome.
