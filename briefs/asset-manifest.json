@@ -129,5 +129,10 @@
     "path": "images/do-good-now/hero-thurgood-cherry-blossoms.jpg",
     "sha256": "cdcd87fffede34fdb47d5ee9b941adba523855fce713e1a20c061b125a809f84",
     "source": "User-provided ThurgoodMarshallHall_CherryBlossoms_03252026_DS_9222 copy.jpg"
+  },
+  {
+    "path": "images/do-good-now/hero-campus-snow.jpg",
+    "sha256": "9f3afa9aabe4c968c3ec8f735c62c4fff97765bc17f1cc28cad423ad75cf9809",
+    "source": "User-provided Campus_Snow_01172024_JC_9227 copy.jpg"
   }
 ]

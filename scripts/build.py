@@ -23,7 +23,7 @@ dist.mkdir()
 for name in ('pages', 'images'):
     shutil.copytree(ROOT / name, dist / name)
 (dist / 'scripts').mkdir()
-for name in ('do-good-pathway.js', 'learning-pathway.js'):
+for name in ('do-good-pathway.js', 'learning-pathway.js', 'do-good-hero.js'):
     shutil.copy2(ROOT / 'scripts' / name, dist / 'scripts' / name)
 (dist / 'page-builder/scripts').mkdir(parents=True)
 shutil.copy2(ROOT / 'page-builder/scripts/grid-animations.js', dist / 'page-builder/scripts/grid-animations.js')

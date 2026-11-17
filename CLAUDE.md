@@ -22,4 +22,4 @@ This is the user's publicly shared review site: retain noindex and add no sign-i
 
 Do not add Scroll to Top controls on either page; the user requested their removal.
 
-The Do Good hero currently uses the user-provided `images/do-good-now/hero-thurgood-cherry-blossoms.jpg`, with focal position 50% 55% to frame the building, blossoms and Do Good sign. Keep the original source image and native small centered Hero; other sculpture photos elsewhere on the page remain their approved assets.
+The Do Good hero uses the user-provided `images/do-good-now/hero-campus-snow.jpg`, with focal position 70% 70%. The user requested that the DO GOOD sign be visible: this page now uses native small standard Hero with left-aligned copy. `scripts/do-good-hero.js` limits tablet/desktop copy to min(480px,40vw) and shades the left side, leaving the photographed sign on the right clear of text and a heavy overlay. Its scoped readiness hooks preserve native mobile image-above-text layout. Keep all hero copy and the original photo bytes. Other sculpture photos and the Learning hero retain their approved settings.
