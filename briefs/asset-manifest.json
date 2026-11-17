@@ -134,5 +134,10 @@
     "path": "images/do-good-now/hero-campus-snow.jpg",
     "sha256": "9f3afa9aabe4c968c3ec8f735c62c4fff97765bc17f1cc28cad423ad75cf9809",
     "source": "User-provided Campus_Snow_01172024_JC_9227 copy.jpg"
+  },
+  {
+    "path": "images/shared/fearlessly-forward-logo.svg",
+    "sha256": "6900615d2bd3b23fcf3415db30c5d548144f004c946bf943f055e1f39ebc675d",
+    "source": "User-provided FF-black.svg"
   }
 ]
