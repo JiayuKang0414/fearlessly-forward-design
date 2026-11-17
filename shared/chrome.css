@@ -14,7 +14,6 @@
       background: #171717; color: #c7c7c7; padding: 20px 24px;
       text-align: center; font-size: 12px; line-height: 1.6;
     }
-    umd-element-navigation-header [slot="logo"] img { width: 284px; max-width: 100%; height: auto; }
     umd-element-navigation-header div[slot="utility-navigation"] a {
       display: inline-flex; align-items: center; gap: 8px; white-space: nowrap;
       color: #242424; text-decoration: none;

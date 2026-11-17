@@ -114,5 +114,10 @@
   {
     "path": "images/do-good-now/do-good-story-01.jpg",
     "sha256": "33bc86b05da9acb472f8aa7c8f67b53f491deb86565fd18dae13353722604e82"
+  },
+  {
+    "path": "images/shared/fearlessly-forward-logo.png",
+    "sha256": "53ad43f1cb566ee9698905f5ef7f6ab88320bf1d58500ef98b5000f6c913c005",
+    "source": "User-provided fearless forward (1).png"
   }
 ]

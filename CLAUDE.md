@@ -8,7 +8,7 @@ Page source lives at `pages/do-good-now/index.html` and `pages/we-reimagine-lear
 
 Run `python3 scripts/build.py` after edits. Use `python3 scripts/build-chrome.py --check` for freshness. This project wrapper uses the unmodified canonical inliner with `SiteChrome`, which stamps native `data-selected` and `aria-current="page"` on desktop and mobile links. Do not patch the submodule or hand-edit generated shared regions.
 
-Building a Do Good Campus selects A Do Good Campus; Learning selects Innovations in Teaching and Learning. Those entries link within this project. Home and The Future of AI keep their live destinations. Preserve one-line desktop labels, mobile wrapping and approved Support Maryland styling.
+Building a Do Good Campus selects A Do Good Campus; Learning selects Innovations in Teaching and Learning. Those entries link within this project. Home and The Future of AI keep their live destinations. Preserve one-line desktop labels, mobile wrapping and approved Support Maryland styling. The shared site header uses the user-provided `images/shared/fearlessly-forward-logo.png`, with Fearlessly Forward alt text and the same homepage destination as Home. Preserve the original image bytes/transparency and aspect ratio. Inline image sizing travels with the native cloned logo slot: width auto, height 48px, object-fit contain; native sticky height limits remain in force.
 
 Preserve all approved copy, photographs, quotes, statistic labels and editorial destinations unless the user supplies a change. Do Good retains seven sections; Learning retains eight. Update preservation manifests in `briefs/` for authorized later content changes.
 
