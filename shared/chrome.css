@@ -14,14 +14,4 @@
       background: #171717; color: #c7c7c7; padding: 20px 24px;
       text-align: center; font-size: 12px; line-height: 1.6;
     }
-    umd-element-navigation-header div[slot="utility-navigation"] a {
-      display: inline-flex; align-items: center; gap: 8px; white-space: nowrap;
-      color: #242424; text-decoration: none;
-    }
-    umd-element-navigation-header div[slot="utility-navigation"] a svg {
-      width: 12px; height: 12px; flex: 0 0 12px; fill: currentColor;
-    }
-    umd-element-navigation-header div[slot="utility-navigation"] a:focus-visible {
-      outline: 2px solid #e21833; outline-offset: 4px;
-    }
     @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
