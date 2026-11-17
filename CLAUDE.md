@@ -22,4 +22,4 @@ This is the user's publicly shared review site: retain noindex and add no sign-i
 
 Do not add Scroll to Top controls on either page; the user requested their removal.
 
-The Do Good hero uses the user-provided `images/do-good-now/hero-thurgood-marshall-hall.jpg`, with focal position 75% 82% to prioritize the sculpture. Keep the original source image and native small centered Hero; other sculpture photos elsewhere on the page remain their approved assets.
+The Do Good hero currently uses the user-provided `images/do-good-now/hero-thurgood-cherry-blossoms.jpg`, with focal position 50% 55% to frame the building, blossoms and Do Good sign. Keep the original source image and native small centered Hero; other sculpture photos elsewhere on the page remain their approved assets.

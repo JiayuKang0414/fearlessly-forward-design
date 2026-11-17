@@ -124,5 +124,10 @@
     "path": "images/do-good-now/hero-thurgood-marshall-hall.jpg",
     "sha256": "3d7f487ec2a9ec34c95aad1d8577767282c95351f84b8618353d7212a5f0f4a1",
     "source": "User-provided ThurgoodMarshallHall_DoGood_05222023_JC_9303.JPG"
+  },
+  {
+    "path": "images/do-good-now/hero-thurgood-cherry-blossoms.jpg",
+    "sha256": "cdcd87fffede34fdb47d5ee9b941adba523855fce713e1a20c061b125a809f84",
+    "source": "User-provided ThurgoodMarshallHall_CherryBlossoms_03252026_DS_9222 copy.jpg"
   }
 ]
