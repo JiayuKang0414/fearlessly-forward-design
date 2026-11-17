@@ -1,0 +1,118 @@
+[
+  {
+    "path": "images/we-reimagine-learning/program-arts.jpg",
+    "sha256": "6c9b29a7427659812ba569f66fa7155e3490a824837aee518ed489831e95f19e"
+  },
+  {
+    "path": "images/we-reimagine-learning/learning-hero.jpg",
+    "sha256": "c9545d36eb1c06e2dd3678b8b89c0407a3782c5d7c7aa4007fcee72f298b12bc"
+  },
+  {
+    "path": "images/we-reimagine-learning/program-do-good.jpg",
+    "sha256": "16baff0b716ad8cc6e2eb089f0bb44f043cffb39e4f1ea66d7f7865aba956b24"
+  },
+  {
+    "path": "images/we-reimagine-learning/edu-action.jpg",
+    "sha256": "73c6dcb9c134037351a6fb78cfb699a841377d73620310e96f5618064fba4e3f"
+  },
+  {
+    "path": "images/we-reimagine-learning/program-innovation.png",
+    "sha256": "4e1d53623156b4cdad37e6f7ceeee66ceaf61743d20a23604dbe4feecd959a31"
+  },
+  {
+    "path": "images/we-reimagine-learning/program-dingman.jpg",
+    "sha256": "eb6fa518000875834c6ac3e447e9dcd31bb177e767efedb1f0dd14d09cf7badf"
+  },
+  {
+    "path": "images/logos/.gitkeep",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "images/shared/maryland-logo.svg",
+    "sha256": "4fb9c1f642ad0c7287730befe0b673e8c21076ea9d5dc4a16de45d74f59ef1a9"
+  },
+  {
+    "path": "images/shared/maryland-logo-white.svg",
+    "sha256": "5ae496187d858239614d9a74a14abb7ce4b2e3822fa3c8b00b1989b18a1f58ae"
+  },
+  {
+    "path": "images/shared/action-cheer.png",
+    "sha256": "bd639d828db92d62aadc1af0b56dc0b41b9303a10aed676e3f481f7143437ceb"
+  },
+  {
+    "path": "images/shared/campus.jpg",
+    "sha256": "6e079943641144c54e166ad25942bdf384cf7aa56e85566462b8419041bcd7e2"
+  },
+  {
+    "path": "images/shared/action-join.png",
+    "sha256": "4bfeda6c418fbf466c2b4b425aaacc2bd0ab9ffc4c4e46d148cad6cfcfd7ea11"
+  },
+  {
+    "path": "images/shared/action-support.png",
+    "sha256": "499a1e5f36c3cbd2f8bf3979799dd52321d9f43f62a8979a50ed6baad370c70b"
+  },
+  {
+    "path": "images/shared/action-apply.png",
+    "sha256": "84fb6548915492ae563fc5c10e93d95f1b2df0c7d99d201ef046f5b130e620a4"
+  },
+  {
+    "path": "images/shared/action-connect.png",
+    "sha256": "25da4374596a8ed6e1c161174a27580a7103efefbcb3fcba3a00071f1eed4a4f"
+  },
+  {
+    "path": "images/do-good-now/do-good-month.jpg",
+    "sha256": "80e032f22256cafe1be8bd10b4a3ad6c001ed4b3aea138351d52d882f8d93b1b"
+  },
+  {
+    "path": "images/do-good-now/event-terps-against-hunger.jpg",
+    "sha256": "d6601c3df4969614f4fcd1a332080124668bfb7b93eb0dfdde32e9725b27cd9a"
+  },
+  {
+    "path": "images/do-good-now/event-maryland-day.webp",
+    "sha256": "aad09ac171e3f393951965f363bf0351875e4a02c7e25689633cc94a79accb3e"
+  },
+  {
+    "path": "images/do-good-now/do-good-story-08.jpg",
+    "sha256": "396a33fa7e97da316ed009f94def882f96ebf0fd7974d82547d5ceaf94cb3cf9"
+  },
+  {
+    "path": "images/do-good-now/event-do-good-service.jpg",
+    "sha256": "16baff0b716ad8cc6e2eb089f0bb44f043cffb39e4f1ea66d7f7865aba956b24"
+  },
+  {
+    "path": "images/do-good-now/do-good-story-05.jpg",
+    "sha256": "036f948aaed45e938dd12240f1670a3803559f3ff732c4a493aa59c4046a3f0c"
+  },
+  {
+    "path": "images/do-good-now/do-good-story-04.jpg",
+    "sha256": "3280b67b7dd8af7ac307ba2ea7caf2250910b6cb021f4c990592fe3e51f5252b"
+  },
+  {
+    "path": "images/do-good-now/event-do-good-challenge.png",
+    "sha256": "ec5addd9f21aa08c9eb0c18fb02457de66c39d14cbb3c6a7df680e4fe187daca"
+  },
+  {
+    "path": "images/do-good-now/do-good-story-06.jpg",
+    "sha256": "69b7d7ab8c82759fef06d00394eb6da0d23a14f50367c90c1874735bf28d1fd1"
+  },
+  {
+    "path": "images/do-good-now/event-earth-day.jpg",
+    "sha256": "dd291bb413609fc09e4b160aed9332d8c10f8a4214e2c9f5b8c09d29344817a7"
+  },
+  {
+    "path": "images/do-good-now/do-good-story-07.jpg",
+    "sha256": "8c65b969786f8059e34d031329f7113fd23a18b6af647ec14de0579e547cde78"
+  },
+  {
+    "path": "images/do-good-now/do-good-story-03.jpg",
+    "sha256": "591aef638158380f19ba930e20bef7f349e179b31ee16cf72de8c5d9a1721d1b"
+  },
+  {
+    "path": "images/do-good-now/do-good-story-02.jpg",
+    "sha256": "f1d52f9808a582512b38a66ea61cb087a23ede7091cc0d803ebab5fc4e14dd5c"
+  },
+  {
+    "path": "images/do-good-now/do-good-story-01.jpg",
+    "sha256": "33bc86b05da9acb472f8aa7c8f67b53f491deb86565fd18dae13353722604e82"
+  }
+]

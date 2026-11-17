@@ -1,0 +1,45 @@
+name: Deploy Fearlessly Forward
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          submodules: true
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Build independent site
+        run: python3 scripts/build.py
+      - name: Verify shared chrome and canonical styles
+        run: |
+          python3 scripts/build-chrome.py --check
+          python3 page-builder/tools/inline-critical.py --check --root . pages
+          python3 page-builder/tools/check-themes.py pages/do-good-now/index.html pages/we-reimagine-learning/index.html
+          python3 page-builder/tools/check-class-names.py --namespace learning pages/do-good-now/index.html pages/we-reimagine-learning/index.html
+      - uses: actions/configure-pages@v6
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v5

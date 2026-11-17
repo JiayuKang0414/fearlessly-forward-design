@@ -1,0 +1,29 @@
+/* Native landing widths, typography and spacing govern the sections.
+       Page CSS handles editorial media and credits only. */
+    html { scroll-behavior: smooth; scroll-padding-top: 124px; }
+    body { margin: 0; background: #fff; }
+    :is(.umd-learning-source-note, .umd-learning-footer-note) a:focus-visible {
+      outline: 2px solid #e21833; outline-offset: 4px;
+    }
+    .umd-learning-footer-note a:focus-visible { outline-color: #ffd200; }
+    .umd-learning-source-note {
+      font-size: 13px; line-height: 1.6; color: #626262; margin-top: 24px;
+    }
+    .umd-learning-source-note-dark { color: #d0d0d0; }
+    .umd-learning-footer-note {
+      background: #171717; color: #c7c7c7; padding: 20px 24px;
+      text-align: center; font-size: 12px; line-height: 1.6;
+    }
+    umd-element-navigation-header [slot="logo"] img { width: 284px; max-width: 100%; height: auto; }
+    umd-element-navigation-header div[slot="utility-navigation"] a {
+      display: inline-flex; align-items: center; gap: 8px; white-space: nowrap;
+      color: #242424; text-decoration: none;
+    }
+    umd-element-navigation-header div[slot="utility-navigation"] a svg {
+      width: 12px; height: 12px; flex: 0 0 12px; fill: currentColor;
+    }
+    umd-element-navigation-header div[slot="utility-navigation"] a:focus-visible {
+      outline: 2px solid #e21833; outline-offset: 4px;
+    }
+    umd-element-scroll-top { right: 24px; bottom: 24px; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

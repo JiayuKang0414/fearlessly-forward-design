@@ -1,0 +1,25 @@
+# Fearlessly Forward overrides
+
+Native components and canonical critical CSS remain unchanged. Canonical layout, typography and card classes are not custom overrides.
+
+## Scoped Pathway shadow styles
+
+`scripts/do-good-pathway.js` targets only `umd-element-pathway#do-good-month-pathway`; `scripts/learning-pathway.js` targets only `umd-element-pathway#learning-pathway`. Each sets its own `.pathway-container-lock-wrapper` minimum height to zero. Both preserve native readiness hooks and duplicate-style guards. Do Good keeps its 480px maximum photo crop; Learning keeps its original natural image treatment.
+
+These scoped styles remove the standard Pathway's viewport-based `56vh` floor so the rows follow their approved photo and copy without extra blank space. The scripts retain the lifecycle comment, “Reapply after native lazy initialization or a component rerender.” They do not change native typography, padding, section margins or any other Pathway.
+
+## Video and shared styles
+
+Learning's `.umd-learning-video` uses a zero-margin figure, responsive 16:9 iframe and a 16px caption gap. Its title uses native 18px bold sentence case; the description uses native rich text. Video and program cards remain separate sections at the native desktop gap.
+
+`shared/chrome.css` preserves the approved 284px logo, Support Maryland icon alignment/focus treatment, scroll behavior and source/footer credits. Desktop labels keep inline no-wrap; mobile labels wrap normally. No navigation font, breakpoint or shadow override is added.
+
+The genuine shared page-built classes are `.umd-learning-footer-note` (the presentation credit on both pages), `.umd-learning-source-note` (the small April 2026 editorial note on Do Good) and `.umd-learning-source-note-dark` (that note's dark-band color). These supplementary notes do not replace a native component; their approved small-text, color, spacing and keyboard-focus treatment is retained from the presentation. Learning defines the two source-note helpers through shared CSS but does not render a source-note element. The existing `umd-learning-*` names are preserved for migration fidelity.
+
+## Current-page navigation
+
+`scripts/site_chrome.py` extends the canonical Chrome class only to stamp `data-selected` and `aria-current="page"` by project-relative destination in desktop and mobile menus. `scripts/build-chrome.py` runs the canonical inliner with that class, so generation and freshness checks converge. There is no runtime DOM patch or custom active-state CSS. Neither page reads the other page to obtain chrome.
+
+## Verification
+
+The build checks preserved copy/components, image hashes, asset paths, navigation, themes/classes, critical CSS and chrome freshness. Browser rendering remains unverified because supported initialization fails with `Cannot redefine property: process`.
