@@ -21,4 +21,4 @@ The scaffold contains a separate pinned page-builder submodule and project-owned
 
 Public review visibility and noindex metadata are retained from the user's previous sharing authorization; no sign-in gate or production-domain change is introduced.
 
-The independent local project, preview artifact and workflow are prepared before publication. GitHub repository creation still requires an authenticated connection. Existing review URLs remain until the new deployment is verified, then can redirect.
+The independent repository has been created at https://github.com/JiayuKang0414/fearlessly-forward-design. The prepared workflow deploys `main` to the independent GitHub Pages site. Existing review URLs remain until the new deployment is verified, then can redirect.

@@ -25,7 +25,7 @@ The build retains Do Good's seven sections and Learning's eight sections, three-
 
 ## Publication status
 
-The local project and Pages workflow are ready. Intended repository: `JiayuKang0414/fearlessly-forward-design`. It has not been created: the current session has no GitHub repository-creation credential. After creating that empty repository, add its SSH origin and push `main`; select GitHub Actions as the Pages source.
+Repository: https://github.com/JiayuKang0414/fearlessly-forward-design. The included GitHub Pages workflow builds and deploys pushes to `main`; Pages uses GitHub Actions as its source. The site target is https://jiayukang0414.github.io/fearlessly-forward-design/.
 
 The user's existing public review behavior is retained: no new login gate, with noindex metadata. No production UMD domain is changed. Existing review URLs remain until the new deployment is verified; they can then become redirects.
 
