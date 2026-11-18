@@ -14,7 +14,7 @@ The Do Good hero uses the user-provided `hero-do-good-rings.webp`, copied unchan
 
 ## Learning hero crop
 
-The Learning hero image uses `object-position:50.6% 35%`, raising the vertical crop focus slightly from 42.24% while retaining the horizontal focus. The photo bytes, layout, height, text and native gradient remain unchanged. This adjusts the existing image attribute only; no new CSS, script or image asset is introduced. Browser rendering remains unverified because the supported browser connection still fails.
+The Learning hero image uses `object-position:50.6% 28%`, raising the vertical crop focus further while retaining the horizontal focus. The photo bytes, layout, height, text and native gradient remain unchanged. This adjusts the existing image attribute only; no new CSS, script or image asset is introduced. Browser rendering remains unverified because the supported browser connection still fails.
 
 ## Video and shared styles
 
