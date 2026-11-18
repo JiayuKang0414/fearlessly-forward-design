@@ -144,5 +144,10 @@
     "path": "images/do-good-now/quote-pines-maryland-day.webp",
     "sha256": "75b015be7ecf41442873b6503d759f6f5d5c3cc0de5c39c9a0c301715681b142",
     "source": "User-provided MarylandDay_04292023_JC_2961_1920x1080.webp"
+  },
+  {
+    "path": "images/do-good-now/hero-do-good-rings.webp",
+    "sha256": "293b3b3368a9eb74394cff42b6f87348ac436e90f873f5b7b3b3ed92950262af",
+    "source": "User-provided DoGood_Rings_08272024_JC_4795_1920x1080.webp"
   }
 ]

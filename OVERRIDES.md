@@ -8,9 +8,9 @@ Native components and canonical critical CSS remain unchanged. Canonical layout,
 
 These scoped styles remove the standard Pathway's viewport-based `56vh` floor so the rows follow their approved photo and copy without extra blank space. The scripts retain the lifecycle comment, “Reapply after native lazy initialization or a component rerender.” They do not change native typography, padding, section margins or any other Pathway.
 
-## Do Good hero settings restored
+## Do Good hero
 
-At the user’s request, the Do Good hero is restored to the native small standard centered layout, default text width and native gradient. The snow photograph and focal position 70% 70% are retained. The page-specific hero composition script and its shadow injection are removed.
+The Do Good hero uses the user-provided `hero-do-good-rings.webp`, copied unchanged from DoGood_Rings_08272024_JC_4795_1920x1080.webp (1920×1080). Its native small standard centered layout, default text width, gradient, focal position 70% 70%, heading and description are retained. No page-specific hero composition script or shadow injection is used.
 
 ## Video and shared styles
 
