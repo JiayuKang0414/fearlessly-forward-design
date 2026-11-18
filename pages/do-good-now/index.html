@@ -914,14 +914,16 @@
     </section>
 
     <section id="president-quote" class="umd-layout-vertical-landing" aria-label="A statement from President Darryll J. Pines">
-      <div class="umd-layout-space-horizontal-normal">
-        <!-- Feature Quote defaults to the light palette; long text keeps default type size. -->
-        <umd-element-quote data-display="featured">
-          <blockquote slot="quote">Public research universities are uniquely positioned to make a positive difference in the lives of our citizens and across the globe, because universities have a combination of values, assets and problem-solving approaches that simply doesn’t exist elsewhere.</blockquote>
-          <p slot="attribution">Darryll J. Pines</p>
-          <p slot="attribution-sub-text">President, University of Maryland</p>
-        </umd-element-quote>
-      </div>
+      <umd-layout-image-expand>
+        <div slot="content" class="block max-w-[480px] w-full mr-auto">
+          <umd-element-quote data-display="featured" data-theme="dark" data-visual-transparent="true">
+            <blockquote slot="quote">Public research universities are uniquely positioned to make a positive difference in the lives of our citizens and across the globe, because universities have a combination of values, assets and problem-solving approaches that simply doesn’t exist elsewhere.</blockquote>
+            <p slot="attribution">Darryll J. Pines</p>
+            <p slot="attribution-sub-text">President, University of Maryland</p>
+          </umd-element-quote>
+        </div>
+        <img slot="image" src="../../images/do-good-now/quote-pines-maryland-day.webp" alt="Maryland Day visitors beside the Do Good sculpture outside Thurgood Marshall Hall" width="1920" height="1080" loading="lazy" onerror="this.onerror=null;this.src='../../images/shared/campus.jpg';">
+      </umd-layout-image-expand>
     </section>
 
     <section id="events" class="umd-layout-background-full-dark umd-layout-vertical-landing" aria-label="Do Good Month events">

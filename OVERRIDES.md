@@ -24,6 +24,10 @@ The genuine shared page-built classes are `.umd-learning-footer-note` (the prese
 
 The former static eight-card snapshot is replaced with the native dynamic `umd-feed-news`. Original source category 10461, four columns and two rows provide eight current articles from Maryland Today. The existing wide intro, 1600px lock and native spacing remain. The original public client configuration is used without a page-built fetcher, shadow style or proxy. Its token is excluded from this document. `briefs/do-good-news-source.json` records the source and validated configuration; the preservation manifest records static copy and the feed component, not fetched article text.
 
+## Pines Image Expand quote
+
+At the user's request, the former standalone light Pines quote uses the native full-bleed Image Expand layout. Its content slot is constrained to 480px and left-aligned with canonical utility classes; the featured quote uses `data-theme="dark"` and `data-visual-transparent="true"`, with default size for the long quotation. The user's original Maryland Day WebP provides the image. Native animation, overlay, typography and landing spacing remain; no new CSS, script or shadow override is added. All quotation and attribution text is preserved.
+
 ## Current-page navigation
 
 `scripts/site_chrome.py` extends the canonical Chrome class only to stamp `data-selected` and `aria-current="page"` by project-relative destination in desktop and mobile menus. `scripts/build-chrome.py` runs the canonical inliner with that class, so generation and freshness checks converge. There is no runtime DOM patch or custom active-state CSS. Neither page reads the other page to obtain chrome.

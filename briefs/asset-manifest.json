@@ -139,5 +139,10 @@
     "path": "images/shared/fearlessly-forward-logo.svg",
     "sha256": "6900615d2bd3b23fcf3415db30c5d548144f004c946bf943f055e1f39ebc675d",
     "source": "User-provided FF-black.svg"
+  },
+  {
+    "path": "images/do-good-now/quote-pines-maryland-day.webp",
+    "sha256": "75b015be7ecf41442873b6503d759f6f5d5c3cc0de5c39c9a0c301715681b142",
+    "source": "User-provided MarylandDay_04292023_JC_2961_1920x1080.webp"
   }
 ]
