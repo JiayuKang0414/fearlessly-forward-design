@@ -32,9 +32,11 @@ At the user's request, the former standalone light Pines quote uses the native f
 
 At the user's request, the We are united in purpose Image Expand is replaced by three native examples with identical approved copy: centered Section Intro with a red separator, Brand Chevron Promo, and standard white Pathway with the existing Do Good sculpture photo. Each has its own native landing section and unique heading/anchor IDs. Section Intro supplies its own centered width; Chevron Promo and Pathway remain full-bleed. The Chevron's `data-animation="false"` starts its native animation on entering view. The new Pathway uses a direct paragraph in its text slot and does not reuse the Do Good Month spacing helper. No new styles, shadow injections, runtime scripts, labels or calls to action are added. This comparison increases Do Good from seven to nine sections.
 
-## Support promo and four-card row
+## Support promo and Masonry action cards
 
-At the user's request, Support moves out of the Do Good action-card grid into a default gold `umd-element-banner-promo`, immediately above Apply, Join, Connect and Cheer. The banner uses a single native primary CTA with the original donation URL and official Giving copy recorded in `briefs/support-promo-source.json`. Both sections retain the native 1600px lock and landing spacing. The card row uses `umd-layout-grid-gap-four`, verified against the published 2.1.0 layout CSS: 32px gaps, two columns at 650px and four at 1024px. The remaining four cards retain their original bytes, images, destinations and CTA-icon treatment. No custom grid, styles or script is introduced. Learning remains unchanged.
+Support remains a default gold native Banner Promo above Apply, Join, Connect and Cheer, with its original donation URL and official Giving copy recorded in `briefs/support-promo-source.json`. The banner retains its 1600px lock. The four image Overlay Cards now use `umd-layout-grid-masonry` in a 1280px normal lock. Native 2.1.0 CSS supplies the single-column mobile layout, two columns from 768px and staggered margins/gaps. The remaining cards retain their exact original markup, images, destinations and CTA-icon treatment.
+
+The page-local `opportunities-masonry-styles` block scopes overlay-host height and min-height to `#connect-with-maryland .umd-layout-grid-masonry > umd-element-card-overlay`: 420px below 768px and 480px above. Masonry needs defined card dimensions; explicit height also lets the native shadow container's `height:100%` fill the host. No `size-large`, custom grid, offset override or runtime script is added. Native landing spacing remains. Learning, Support and the shared Simple Footer remain unchanged.
 
 ## Shared Simple Footer
 
