@@ -12,6 +12,10 @@ These scoped styles remove the standard Pathway's viewport-based `56vh` floor so
 
 The Do Good hero uses the user-provided `hero-do-good-rings.webp`, copied unchanged from DoGood_Rings_08272024_JC_4795_1920x1080.webp (1920×1080). Its native small standard centered layout, default text width, gradient, focal position 70% 70%, heading and description are retained. No page-specific hero composition script or shadow injection is used.
 
+## Learning hero crop
+
+The Learning hero image uses `object-position:50.6% 35%`, raising the vertical crop focus slightly from 42.24% while retaining the horizontal focus. The photo bytes, layout, height, text and native gradient remain unchanged. This adjusts the existing image attribute only; no new CSS, script or image asset is introduced. Browser rendering remains unverified because the supported browser connection still fails.
+
 ## Video and shared styles
 
 Learning's `.umd-learning-video` uses a zero-margin figure, responsive 16:9 iframe and a 16px caption gap. Its title uses native 18px bold sentence case; the description uses native rich text. Video and program cards remain separate sections at the native desktop gap.
