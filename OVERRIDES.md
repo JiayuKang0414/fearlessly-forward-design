@@ -18,6 +18,8 @@ The Learning hero image uses `object-position:50.6% 28%`, raising the vertical c
 
 ## Video and shared styles
 
+The Learning video section retains its Section Intro Wide heading and exact original copy, with an explicit `<br>` after “innovation”. No font, alignment, spacing or width rule changes; the native heading reflows further when needed on smaller screens.
+
 Learning's `.umd-learning-video` uses a zero-margin figure, responsive 16:9 iframe and a 16px caption gap. Its title uses native 18px bold sentence case; the description uses native rich text. Video and program cards remain separate sections at the native desktop gap.
 
 The shared header uses the user-provided FF-black.svg, stored as `images/shared/fearlessly-forward-logo.svg`, with viewBox 0 0 160 67. The SVG is copied unchanged and used directly as a vector image. Inline `display:block;width:auto;height:48px;object-fit:contain` preserves its aspect ratio inside the native cloned logo slot; the native sticky maximum height still applies. Its link and accessible label identify the Fearlessly Forward homepage. The previous 284px UMD site-logo sizing rule is removed. `shared/chrome.css` preserves scroll behavior and source/footer credits. The Support Maryland utility row and its alignment/icon/focus styles have been removed at the user’s request. Desktop labels keep inline no-wrap; mobile labels wrap normally. No navigation font, breakpoint or shadow override is added.

@@ -37,3 +37,5 @@ Both pages use the shared native Simple Footer (`umd-element-footer data-display
 Learning's hero retains its current photo and native centered small layout, with image focal position `50.6% 28%`. The vertical focus was raised further at the user's request; keep the horizontal focus unchanged. This uses only the existing image's object-position style, with no image processing or shadow override.
 
 Learning's three statistics descriptions use all lowercase text at the user's request, including words and proper names within those labels. Preserve the statistic values, wording, native typography and layout; do not restore the previous mixed or uppercase labels.
+
+The Learning video section at `#innovation-ecosystem` keeps its native Section Intro Wide heading and the full original wording. Add an explicit line break immediately after “innovation”, so the next line starts “in teaching and learning”. Preserve whitespace across the break for the approved text record. Do not shorten the title, change its typography, or replace it with a plain H2 treatment.
