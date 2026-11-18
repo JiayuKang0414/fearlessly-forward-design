@@ -21,7 +21,7 @@ Open http://localhost:4173. UMD bundles/fonts, live news and YouTube require an 
 
 Edit page content in `pages/`; edit shared regions in `shared/`, then build. `scripts/build-chrome.py` runs the canonical inliner with project-owned current-page selection. `briefs/` records approved text/component and image hashes; update those records when the user authorizes later content changes. Never print feed tokens or full Learning HTML in logs.
 
-The build retains Do Good's eleven sections, including four closing-statement alternatives and a Support Maryland promo above four full-viewport overlay action cards, and Learning's eight sections. Do Good, Now uses the original dynamic News Feed category (10461), four columns and two rows, fetching eight current Maryland Today articles on page load. Learning retains its three-column News Feed, 18px caption title and 120px desktop video-to-program gap. Only referenced images are migrated. The publication artifact contains only required pages, assets and runtime scripts; no fixtures, Git files or design-system source are published.
+Both pages retain eight sections. Do Good uses the standard image-and-text Pathway for its closing statement and a Support Maryland promo above four full-viewport overlay action cards. Do Good, Now uses the original dynamic News Feed category (10461), four columns and two rows, fetching eight current Maryland Today articles on page load. Learning retains its three-column News Feed, 18px caption title and 120px desktop video-to-program gap. Only referenced images are migrated. The publication artifact contains only required pages, assets and runtime scripts; no fixtures, Git files or design-system source are published.
 
 ## Publication status
 

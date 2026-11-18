@@ -28,13 +28,9 @@ The former static eight-card snapshot is replaced with the native dynamic `umd-f
 
 At the user's request, the former standalone light Pines quote uses the native full-bleed Image Expand layout. Its content slot is constrained to 480px and left-aligned with canonical utility classes; the featured quote uses `data-theme="dark"` and `data-visual-transparent="true"`, with default size for the long quotation. The user's original Maryland Day WebP provides the image. Native animation, overlay, typography and landing spacing remain; no new CSS, script or shadow override is added. All quotation and attribution text is preserved.
 
-## Closing-statement component comparison
+## Closing-statement Pathway
 
-At the user's request, the We are united in purpose statement appears in four native alternatives with identical approved copy: centered Section Intro with a red separator, Brand Chevron Promo, standard white Pathway with the existing Do Good sculpture photo, and Text Pathway. Each has its own native landing section and unique heading/anchor IDs. Section Intro supplies its own centered width; the Pathways and Chevron Promo use their native internal layout. The Chevron's `data-animation="false"` starts its native animation on entering view. The ordinary Pathway uses a direct paragraph in its text slot and does not reuse the Do Good Month spacing helper. No new styles, shadow injections, runtime scripts, visible labels or calls to action are added.
-
-## Text Pathway short-copy trial
-
-The user requested a fourth closing-statement option using only the existing text. `#united-in-purpose-text-pathway` uses the native `umd-element-pathway-highlight`: the existing title is the left headline; the existing supporting sentence is the right highlighted text. No body text, image, attribution, CTA or new visible copy is added. The optional `text` slot is deliberately omitted for this authorized short-copy trial, an exception to the usual recommendation for substantive body content. Default light styling, the native red highlight accent and landing spacing apply. This adds one section (eleven total on Do Good) without new CSS or runtime helpers; all earlier alternatives remain.
+The We are united in purpose closing statement uses the standard white `umd-element-pathway` at `#united-in-purpose-pathway`, with the existing Do Good sculpture photo on the left. Its exact headline and supporting sentence are preserved, with a direct paragraph in the text slot. The native full-bleed layout and landing spacing remain. The Section Intro, Brand Chevron Promo and Text Pathway alternatives and their comparison comments are removed. No new CSS, shadow injection, runtime helper or copy is introduced. Do Good now has eight sections; the rest of the page and Learning remain unchanged.
 
 ## Support promo and edge-to-edge action cards
 

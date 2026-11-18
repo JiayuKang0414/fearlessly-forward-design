@@ -4,7 +4,7 @@
   "pages": {
     "do-good-now": {
       "path": "pages/do-good-now/index.html",
-      "content_sha256": "6e833668e918ca32add743010f32585c24375c1af6d9ce7d1e331fc1e68fed87",
+      "content_sha256": "a525732472d991548e34286c3f57de0a483f11232ebcaac32cfdcb0e1dd4fe3b",
       "components": {
         "umd-element-hero": 1,
         "umd-element-pathway": 2,
@@ -15,13 +15,10 @@
         "umd-element-quote": 1,
         "umd-element-sticky-columns": 1,
         "umd-element-event": 5,
-        "umd-element-section-intro": 1,
-        "umd-element-brand-chevron-promo": 1,
-        "umd-element-pathway-highlight": 1,
         "umd-element-banner-promo": 1,
         "umd-element-card-overlay": 4
       },
-      "sections": 11
+      "sections": 8
     },
     "we-reimagine-learning": {
       "path": "pages/we-reimagine-learning/index.html",
