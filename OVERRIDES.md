@@ -32,6 +32,10 @@ At the user's request, the former standalone light Pines quote uses the native f
 
 At the user's request, the We are united in purpose Image Expand is replaced by three native examples with identical approved copy: centered Section Intro with a red separator, Brand Chevron Promo, and standard white Pathway with the existing Do Good sculpture photo. Each has its own native landing section and unique heading/anchor IDs. Section Intro supplies its own centered width; Chevron Promo and Pathway remain full-bleed. The Chevron's `data-animation="false"` starts its native animation on entering view. The new Pathway uses a direct paragraph in its text slot and does not reuse the Do Good Month spacing helper. No new styles, shadow injections, runtime scripts, labels or calls to action are added. This comparison increases Do Good from seven to nine sections.
 
+## Support promo and four-card row
+
+At the user's request, Support moves out of the Do Good action-card grid into a default gold `umd-element-banner-promo`, immediately above Apply, Join, Connect and Cheer. The banner uses a single native primary CTA with the original donation URL and official Giving copy recorded in `briefs/support-promo-source.json`. Both sections retain the native 1600px lock and landing spacing. The card row uses `umd-layout-grid-gap-four`, verified against the published 2.1.0 layout CSS: 32px gaps, two columns at 650px and four at 1024px. The remaining four cards retain their original bytes, images, destinations and CTA-icon treatment. No custom grid, styles or script is introduced. Learning remains unchanged.
+
 ## Current-page navigation
 
 `scripts/site_chrome.py` extends the canonical Chrome class only to stamp `data-selected` and `aria-current="page"` by project-relative destination in desktop and mobile menus. `scripts/build-chrome.py` runs the canonical inliner with that class, so generation and freshness checks converge. There is no runtime DOM patch or custom active-state CSS. Neither page reads the other page to obtain chrome.
