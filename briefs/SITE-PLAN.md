@@ -6,7 +6,7 @@
 - Permanent local folder: `/Users/jiayukang/Documents/New project/Fearlessly Forward`.
 - Sources: https://fearlesslyforward.umd.edu/we-reimagine-learning and https://fearlesslyforward.umd.edu/do-good-now.
 - Tone: image-forward; preserve approved Design System 2.1.0 layouts.
-- Chrome: UMD utility bar, Fearlessly Forward site logo, three flat nav items and visual footer. The Support Maryland utility menu is removed.
+- Chrome: UMD utility bar, Fearlessly Forward site logo, three flat nav items and simple footer. The Support Maryland utility menu is removed.
 
 ```text
 index.html → pages/do-good-now/

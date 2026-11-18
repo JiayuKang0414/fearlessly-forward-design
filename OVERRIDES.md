@@ -36,6 +36,10 @@ At the user's request, the We are united in purpose Image Expand is replaced by 
 
 At the user's request, Support moves out of the Do Good action-card grid into a default gold `umd-element-banner-promo`, immediately above Apply, Join, Connect and Cheer. The banner uses a single native primary CTA with the original donation URL and official Giving copy recorded in `briefs/support-promo-source.json`. Both sections retain the native 1600px lock and landing spacing. The card row uses `umd-layout-grid-gap-four`, verified against the published 2.1.0 layout CSS: 32px gaps, two columns at 650px and four at 1024px. The remaining four cards retain their original bytes, images, destinations and CTA-icon treatment. No custom grid, styles or script is introduced. Learning remains unchanged.
 
+## Shared Simple Footer
+
+At the user's request, both pages use `umd-element-footer data-display="simple"` instead of the Visual variant. The background image slot is removed. The existing local white UMD logo, its homepage link and the presentation source-credit links remain. The native default dark theme and internal layout apply without new CSS or JavaScript. `shared/footer.html` supplies both pages through the canonical chrome inliner.
+
 ## Current-page navigation
 
 `scripts/site_chrome.py` extends the canonical Chrome class only to stamp `data-selected` and `aria-current="page"` by project-relative destination in desktop and mobile menus. `scripts/build-chrome.py` runs the canonical inliner with that class, so generation and freshness checks converge. There is no runtime DOM patch or custom active-state CSS. Neither page reads the other page to obtain chrome.
