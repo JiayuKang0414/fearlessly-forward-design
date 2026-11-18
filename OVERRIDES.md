@@ -18,7 +18,7 @@ The Learning hero image uses `object-position:50.6% 28%`, raising the vertical c
 
 ## Video and shared styles
 
-The Learning video section retains its Section Intro Wide heading and exact original copy, with an explicit `<br>` after “innovation”. No font, alignment, spacing or width rule changes; the native heading reflows further when needed on smaller screens.
+The Learning video section uses the native centered `umd-element-section-intro`, preserving exact title copy and the `<br>` after “innovation”. The larger-lock wrapper and Wide variant are removed. Native child spacing sits directly on the centered component, above the existing centered 992px video. Native alignment and typography apply without page-built CSS or shadow overrides.
 
 Learning's `.umd-learning-video` uses a zero-margin figure, responsive 16:9 iframe and a 16px caption gap. Its title uses native 18px bold sentence case; the description uses native rich text. Video and program cards remain separate sections at the native desktop gap.
 
