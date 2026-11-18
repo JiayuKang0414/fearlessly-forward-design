@@ -30,7 +30,11 @@ At the user's request, the former standalone light Pines quote uses the native f
 
 ## Closing-statement component comparison
 
-At the user's request, the We are united in purpose Image Expand is replaced by three native examples with identical approved copy: centered Section Intro with a red separator, Brand Chevron Promo, and standard white Pathway with the existing Do Good sculpture photo. Each has its own native landing section and unique heading/anchor IDs. Section Intro supplies its own centered width; Chevron Promo and Pathway remain full-bleed. The Chevron's `data-animation="false"` starts its native animation on entering view. The new Pathway uses a direct paragraph in its text slot and does not reuse the Do Good Month spacing helper. No new styles, shadow injections, runtime scripts, labels or calls to action are added. This comparison increases Do Good from seven to nine sections.
+At the user's request, the We are united in purpose statement appears in four native alternatives with identical approved copy: centered Section Intro with a red separator, Brand Chevron Promo, standard white Pathway with the existing Do Good sculpture photo, and Text Pathway. Each has its own native landing section and unique heading/anchor IDs. Section Intro supplies its own centered width; the Pathways and Chevron Promo use their native internal layout. The Chevron's `data-animation="false"` starts its native animation on entering view. The ordinary Pathway uses a direct paragraph in its text slot and does not reuse the Do Good Month spacing helper. No new styles, shadow injections, runtime scripts, visible labels or calls to action are added.
+
+## Text Pathway short-copy trial
+
+The user requested a fourth closing-statement option using only the existing text. `#united-in-purpose-text-pathway` uses the native `umd-element-pathway-highlight`: the existing title is the left headline; the existing supporting sentence is the right highlighted text. No body text, image, attribution, CTA or new visible copy is added. The optional `text` slot is deliberately omitted for this authorized short-copy trial, an exception to the usual recommendation for substantive body content. Default light styling, the native red highlight accent and landing spacing apply. This adds one section (eleven total on Do Good) without new CSS or runtime helpers; all earlier alternatives remain.
 
 ## Support promo and edge-to-edge action cards
 
