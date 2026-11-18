@@ -28,6 +28,10 @@ The former static eight-card snapshot is replaced with the native dynamic `umd-f
 
 At the user's request, the former standalone light Pines quote uses the native full-bleed Image Expand layout. Its content slot is constrained to 480px and left-aligned with canonical utility classes; the featured quote uses `data-theme="dark"` and `data-visual-transparent="true"`, with default size for the long quotation. The user's original Maryland Day WebP provides the image. Native animation, overlay, typography and landing spacing remain; no new CSS, script or shadow override is added. All quotation and attribution text is preserved.
 
+## Closing-statement component comparison
+
+At the user's request, the We are united in purpose Image Expand is replaced by three native examples with identical approved copy: centered Section Intro with a red separator, Brand Chevron Promo, and standard white Pathway with the existing Do Good sculpture photo. Each has its own native landing section and unique heading/anchor IDs. Section Intro supplies its own centered width; Chevron Promo and Pathway remain full-bleed. The Chevron's `data-animation="false"` starts its native animation on entering view. The new Pathway uses a direct paragraph in its text slot and does not reuse the Do Good Month spacing helper. No new styles, shadow injections, runtime scripts, labels or calls to action are added. This comparison increases Do Good from seven to nine sections.
+
 ## Current-page navigation
 
 `scripts/site_chrome.py` extends the canonical Chrome class only to stamp `data-selected` and `aria-current="page"` by project-relative destination in desktop and mobile menus. `scripts/build-chrome.py` runs the canonical inliner with that class, so generation and freshness checks converge. There is no runtime DOM patch or custom active-state CSS. Neither page reads the other page to obtain chrome.
