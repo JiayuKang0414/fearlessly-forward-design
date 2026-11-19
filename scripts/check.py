@@ -82,7 +82,10 @@ for slug, expected in MANIFEST['pages'].items():
         classes = set(attrs.get('class', '').split())
         next_classes = set(page.sections[index + 1].get('class', '').split()) if index + 1 < len(page.sections) else set()
         adjacent_dark = 'umd-layout-background-full-dark' in classes and 'umd-layout-background-full-dark' in next_classes
-        if adjacent_dark:
+        footer_flush = index == len(page.sections) - 1 and attrs.get('id') == 'connect-with-maryland'
+        if footer_flush:
+            assert 'umd-layout-vertical-landing' not in classes, 'Closing card row must meet the footer without a bottom margin'
+        elif adjacent_dark:
             assert 'umd-layout-vertical-landing' not in classes, 'Adjacent dark sections must not introduce a white margin'
         else:
             assert 'umd-layout-vertical-landing' in classes, 'Section missing native landing spacing'
