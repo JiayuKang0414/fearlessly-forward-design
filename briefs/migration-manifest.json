@@ -22,7 +22,7 @@
     },
     "we-reimagine-learning": {
       "path": "pages/we-reimagine-learning/index.html",
-      "content_sha256": "27c5a339b897896c08ebed9399760f3e0df96cbf9d5f614cb77ebc06a5aab10a",
+      "content_sha256": "f176412dafaeab09f4a074e578580eb724aa12bce246af44e8e0c78c11a60583",
       "components": {
         "umd-element-hero": 1,
         "umd-element-pathway": 1,
@@ -32,11 +32,11 @@
         "umd-element-stat": 3,
         "umd-element-section-intro": 1,
         "umd-element-card": 4,
+        "umd-element-card-overlay": 8,
         "umd-element-quote": 1,
-        "umd-element-banner-promo": 1,
-        "umd-element-card-overlay": 4
+        "umd-element-banner-promo": 1
       },
-      "sections": 9
+      "sections": 10
     }
   }
 }
