@@ -22,7 +22,7 @@
     },
     "we-reimagine-learning": {
       "path": "pages/we-reimagine-learning/index.html",
-      "content_sha256": "d3fa0c869dca3cb882830f6234a940c631e0e1f2baff477541120e93c5d8f570",
+      "content_sha256": "27c5a339b897896c08ebed9399760f3e0df96cbf9d5f614cb77ebc06a5aab10a",
       "components": {
         "umd-element-hero": 1,
         "umd-element-pathway": 1,
