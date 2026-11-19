@@ -78,7 +78,14 @@ for slug, expected in MANIFEST['pages'].items():
     assert sha256(text.encode()).hexdigest() == expected['content_sha256'], 'Approved main text changed'
     assert dict(page.components) == expected['components'], 'Approved component structure changed'
     assert len(page.sections) == expected['sections']
-    assert all('umd-layout-vertical-landing' in a.get('class', '').split() for a in page.sections)
+    for index, attrs in enumerate(page.sections):
+        classes = set(attrs.get('class', '').split())
+        next_classes = set(page.sections[index + 1].get('class', '').split()) if index + 1 < len(page.sections) else set()
+        adjacent_dark = 'umd-layout-background-full-dark' in classes and 'umd-layout-background-full-dark' in next_classes
+        if adjacent_dark:
+            assert 'umd-layout-vertical-landing' not in classes, 'Adjacent dark sections must not introduce a white margin'
+        else:
+            assert 'umd-layout-vertical-landing' in classes, 'Section missing native landing spacing'
     assert 'github.io/admissions-design' not in source, 'Old hosting URL remains'
     assert not re.search(r'\{\{[A-Z_]+\}\}', source), 'Unresolved template placeholder'
     ids = [a['id'] for t, a in page.tags if 'id' in a]
