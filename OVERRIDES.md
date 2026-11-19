@@ -30,6 +30,10 @@ The genuine shared page-built classes are `.umd-learning-footer-note` (the prese
 
 The former static eight-card snapshot is replaced with the native dynamic `umd-feed-news`. Original source category 10461, four columns and two rows provide eight current articles from Maryland Today. The existing wide intro, 1600px lock and native spacing remain. The original public client configuration is used without a page-built fetcher, shadow style or proxy. Its token is excluded from this document. `briefs/do-good-news-source.json` records the source and validated configuration; the preservation manifest records static copy and the feed component, not fetched article text.
 
+## Learning Simple Quote
+
+The Jennifer King Rice quote uses the native default Simple Quote (`umd-element-quote`, with `data-display` omitted). Its Featured attribute is removed; the long quotation retains default type size. All quote and attribution text, the 1280px normal lock and native landing spacing are preserved. No image, custom styles or runtime helper is added; the Do Good Pines quote is unaffected.
+
 ## Pines Image Expand quote
 
 At the user's request, the former standalone light Pines quote uses the native full-bleed Image Expand layout. Its content slot is constrained to 480px and left-aligned with canonical utility classes; the featured quote uses `data-theme="dark"` and `data-visual-transparent="true"`, with default size for the long quotation. The user's original Maryland Day WebP provides the image. Native animation, overlay, typography and landing spacing remain; no new CSS, script or shadow override is added. All quotation and attribution text is preserved.
